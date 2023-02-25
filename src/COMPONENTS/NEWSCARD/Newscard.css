@@ -1,0 +1,44 @@
+.news-card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 500px;
+  border: 2px solid rgb(95, 93, 93);
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: saturate(180%) blur(5px);
+  box-shadow: 0 0 7px 0;
+}
+.news-card:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: saturate(180%) blur(10px);
+}
+.news-button {
+  background-color: blue;
+  height: 45px;
+  width: 150px;
+  color: aliceblue;
+  cursor: pointer;
+}
+.button-box {
+  display: flex;
+  justify-content: center;
+}
+.card-text {
+  font-weight: 400;
+  font-size: large;
+  color: whitesmoke;
+}
+.card-title {
+  font-weight: 500;
+  font-size: large;
+  color: whitesmoke;
+}
+.card-body {
+  height: 200px;
+}
+img {
+  height: 220px;
+  object-fit: cover;
+}

@@ -1,0 +1,8 @@
+.app-card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  width: 100vw;
+  height: 93vh;
+  overflow-y: scroll;
+}

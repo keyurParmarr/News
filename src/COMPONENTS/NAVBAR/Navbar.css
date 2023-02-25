@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  align-items: center;
+  height: 7vh;
+}
+.navbar-content {
+  margin-right: 15px;
+  font-weight: 500;
+  font-size: x-large;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.navbar-content > a {
+  color: black;
+}
+.title > a {
+  color: black;
+}
+.title {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  margin: 0;
+  padding: 0;
+}
